@@ -1,0 +1,28 @@
+# Virtual Environment - never push this
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# API Keys - never push this
+.env
+
+# Debug output files from your scraper
+debug_page.html
+debug_screenshot.png
+
+# Job result text files
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
