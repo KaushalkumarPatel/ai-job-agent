@@ -80,7 +80,7 @@ def scrape_linkedin_jobs(keyword: str, location: str) -> str:
                 f.write(html_content)
             return "❌ No job cards found. Saved debug_page.html for inspection."
 
-        print(f"✅ Found {len(job_cards)} job cards!")
+        print(f"✅ Found {len(job_cards)} job cards on LinkedIn!")
 
         # --- Step 4: Format and return results ---
         return format_job_results(job_cards, location)

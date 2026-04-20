@@ -13,8 +13,8 @@ def main():
         "messages": [{
             "role": "user",
             "content": (
-                "Find robotics jobs posted in the last 24 hours "
-                "in Hamburg Germany on LinkedIn."
+                "Find Robotik jobs posted in the last 24 hours "
+                "in Germany."
             )
         }]
     })
