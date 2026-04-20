@@ -1,0 +1,1 @@
+# indeed_scraper.py - Playwright + BeautifulSoup scraper for Indeed jobs

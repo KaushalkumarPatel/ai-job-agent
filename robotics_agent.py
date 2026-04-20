@@ -125,7 +125,7 @@ llm = ChatOllama(model="qwen3.5:9b", temperature=0)
 agent = create_agent(
     model=llm,
     tools=[scrape_jobs_with_bs4],
-    system_prompt="You are a precise agent. Search for robotics jobs posted in the last 24 hours in Germany."
+    system_prompt="You are a precise agent. Search for jobs posted in the last 24 hours in Germany."
 )
 
 # Run the agent

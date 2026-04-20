@@ -1,0 +1,1 @@
+# linkedin_scraper.py - Playwright + BeautifulSoup scraper for LinkedIn jobs
