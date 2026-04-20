@@ -1,0 +1,10 @@
+# Python dependencies will be listed here
+# Run: pip freeze > requirements.txt to auto-populate
+
+langchain
+langchain-ollama
+langchain-community
+ddgs
+playwright
+beautifulsoup4
+git

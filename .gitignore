@@ -17,7 +17,6 @@ debug_page.html
 debug_screenshot.png
 
 # Job result text files
-*.txt
 
 # OS files
 .DS_Store
