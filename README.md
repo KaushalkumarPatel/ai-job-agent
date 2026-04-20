@@ -345,4 +345,3 @@ def get_tools() -> list:
 Add your license information here (e.g. MIT, Apache 2.0, etc.).
 
 ---
-```
