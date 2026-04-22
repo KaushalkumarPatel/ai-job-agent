@@ -12,7 +12,7 @@ def get_tools() -> list:
     Add new scrapers here as you build them.
     """
     return [
-        scrape_linkedin_jobs,
+        #scrape_linkedin_jobs,
         scrape_indeed_jobs,
-        scrape_jobboerse_jobs
+        #scrape_jobboerse_jobs
     ]

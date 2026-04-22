@@ -54,7 +54,7 @@ def format_job_results_indeed(job_cards: list, location: str) -> str:
     return results
 
 @tool
-def scrape_indeed_jobs(keyword: str, location: str) -> str:
+def scrape_indeed_jobs(keyword: str, location: str, days: int) -> str:
     """
     Scrapes job listings from Indeed Germany using Playwright
     and BeautifulSoup. Uses de.indeed.com for German results.
@@ -89,7 +89,7 @@ def scrape_indeed_jobs(keyword: str, location: str) -> str:
             f"https://de.indeed.com/jobs"
             f"?q={keyword}"
             f"&l={location}"
-            f"&fromage=1"
+            f"&fromage={days}"
         )
 
         print(f"🌐 Loading Indeed page...")

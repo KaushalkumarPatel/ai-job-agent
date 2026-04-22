@@ -10,8 +10,7 @@ LLM_TEMPERATURE = 0
 # Agent Configuration
 # ─────────────────────────────────────────
 SYSTEM_PROMPT = (
-    "You are a precise job search agent. "
-    "Search for jobs posted in the last 24 hours in Germany."
+    "You are a precise job search agent. Search for jobs posted in Germany."
 )
 
 # ─────────────────────────────────────────

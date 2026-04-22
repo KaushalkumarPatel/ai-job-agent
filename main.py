@@ -13,8 +13,7 @@ def main():
         "messages": [{
             "role": "user",
             "content": (
-                "Find Robotik jobs posted in the last 24 hours "
-                "in Germany."
+                "Find Softwareentwickler job at ViSenSys GmbH company in Dortmund Germany."
             )
         }]
     })
