@@ -7,14 +7,15 @@ from agents.job_agent import create_job_agent
 def main():
     print("🤖 Starting Robotics Job Agent...\n")
 
+
     agent = create_job_agent()
 
     result = agent.invoke({
         "messages": [{
             "role": "user",
             "content": (
-                "Find Softwareentwickler job at ViSenSys GmbH company in Dortmund Germany."
-            )
+            "Find Computer Vision and Image Processing jobs posted in last 7 days in Germany."
+        )
         }]
     })
 
